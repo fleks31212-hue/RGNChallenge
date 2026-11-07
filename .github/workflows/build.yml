@@ -17,7 +17,7 @@ name: Checkout source
       uses: actions/checkout@v4
 
       
-name: Setup Java
+name: Setup Java 21
       uses: actions/setup-java@v4
       with:
         distribution: temurin
@@ -30,7 +30,7 @@ name: Setup Gradle
         gradle-version: '8.10.2'
 
       
-name: Build
+name: Build mod
       run: gradle build
 
       
