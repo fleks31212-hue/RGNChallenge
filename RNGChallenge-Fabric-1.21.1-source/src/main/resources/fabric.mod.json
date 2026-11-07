@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "rngchallenge",
+  "version": "${version}",
+  "name": "RNG Challenge",
+  "description": "Every minute, complete a random challenge or suffer a random punishment.",
+  "authors": ["RNG Challenge Team"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rngchallenge.RNGChallenge"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
