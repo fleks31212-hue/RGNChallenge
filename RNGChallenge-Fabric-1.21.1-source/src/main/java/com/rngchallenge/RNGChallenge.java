@@ -143,7 +143,7 @@ public class RNGChallenge implements ModInitializer {
             case 8 -> player.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 100, 0));
             case 9 -> player.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 1200, 0));
             case 10 -> player.setOnFireFor(12);
-            case 11 -> player.damage(world, player.getDamageSources().magic(), 4.0f);
+            case 11 -> player.damage(player.getDamageSources().magic(), 4.0f);
             case 12 -> spawnMob(world, EntityType.ZOMBIE, player);
             case 13 -> spawnMob(world, EntityType.SKELETON, player);
             case 14 -> spawnMob(world, EntityType.SPIDER, player);
